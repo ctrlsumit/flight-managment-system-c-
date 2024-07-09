@@ -63,7 +63,7 @@ class registration
 			
 			for(int a=0;a<6;a++)
 			{
-				cout<<(a+1)<<".flight to"<<flightN[a]<<endl;
+				cout<<(a+1)<<" .flight to "<< flightN[a]<<endl;
 				
 			}
 			
@@ -263,13 +263,13 @@ class registration
 						else if(choice1==2)
 						{
 							charges=39000;
-							cout<<"\nYou have successfully booked the flight DUB - 658"<<endl;
+							cout<<"\nYou have successfully booked the flight US - 658"<<endl;
 							cout<<"You can go  back to menu and take the ticket"<<endl;
 						}
 						else if(choice1==3)
 						{
 							charges=42000;
-							cout<<"\nYou have successfully booked the flight DUB - 508"<<endl;
+							cout<<"\nYou have successfully booked the flight US - 508"<<endl;
 							cout<<"You can go  back to menu and take the ticket"<<endl;
 						}
 						else
